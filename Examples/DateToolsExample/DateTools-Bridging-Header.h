@@ -3,9 +3,9 @@
 //
 
 #import "DTError.h"
-#import "DTContstants.h"
+#import "DTConstants.h"
 #import "DTTimePeriod.h"
-#import "DTTimerPeriodChain.h"
+#import "DTTimePeriodChain.h"
 #import "DTTimePeriodCollection.h"
 #import "DTTimePeriodGroup.h"
 #import "NSDate+DateTools.h"
