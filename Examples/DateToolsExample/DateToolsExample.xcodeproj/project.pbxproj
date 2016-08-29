@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0AFD486518F0BBC0004D0FE1 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0AFD486418F0BBC0004D0FE1 /* DateTools.bundle */; };
-		26E564CE1D74831C00A5EBF7 /* Bridging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E564CD1D74831C00A5EBF7 /* Bridging.swift */; };
 		26E564D71D74838A00A5EBF7 /* DateTools-watchos.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E564D61D74838A00A5EBF7 /* DateTools-watchos.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26E564DC1D7483A800A5EBF7 /* DTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 901CF0D61B6CA9FE00F6414B /* DTConstants.m */; };
 		26E564DD1D7483A800A5EBF7 /* DTError.m in Sources */ = {isa = PBXBuildFile; fileRef = 901CF0D81B6CA9FE00F6414B /* DTError.m */; };
@@ -17,10 +16,6 @@
 		26E564E01D7483A800A5EBF7 /* DTTimePeriodCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 901CF0DE1B6CA9FE00F6414B /* DTTimePeriodCollection.m */; };
 		26E564E11D7483A800A5EBF7 /* DTTimePeriodGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 901CF0E01B6CA9FE00F6414B /* DTTimePeriodGroup.m */; };
 		26E564E21D7483A800A5EBF7 /* NSDate+DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 901CF0E21B6CA9FE00F6414B /* NSDate+DateTools.m */; };
-		26E564E31D7483A800A5EBF7 /* DateTools-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E564CC1D74831C00A5EBF7 /* DateTools-Bridging-Header.h */; };
-		26E564E41D7483B000A5EBF7 /* DateTools-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E564CC1D74831C00A5EBF7 /* DateTools-Bridging-Header.h */; };
-		26E564E51D7484A400A5EBF7 /* Bridging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E564CD1D74831C00A5EBF7 /* Bridging.swift */; };
-		26E564E61D7484A500A5EBF7 /* Bridging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E564CD1D74831C00A5EBF7 /* Bridging.swift */; };
 		901CF0E31B6CA9FE00F6414B /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 901CF0D31B6CA9FE00F6414B /* DateTools.bundle */; };
 		901CF0E41B6CA9FE00F6414B /* DateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 901CF0D41B6CA9FE00F6414B /* DateTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		901CF0E51B6CA9FE00F6414B /* DTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 901CF0D51B6CA9FE00F6414B /* DTConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -86,8 +81,6 @@
 
 /* Begin PBXFileReference section */
 		0AFD486418F0BBC0004D0FE1 /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DateTools.bundle; path = ../../../DateTools/DateTools.bundle; sourceTree = "<group>"; };
-		26E564CC1D74831C00A5EBF7 /* DateTools-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DateTools-Bridging-Header.h"; sourceTree = "<group>"; };
-		26E564CD1D74831C00A5EBF7 /* Bridging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bridging.swift; sourceTree = "<group>"; };
 		26E564D41D74838A00A5EBF7 /* DateTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E564D61D74838A00A5EBF7 /* DateTools-watchos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DateTools-watchos.h"; sourceTree = "<group>"; };
 		26E564D81D74838A00A5EBF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -313,14 +306,12 @@
 		F0F08D9218D9E80E00214C6B = {
 			isa = PBXGroup;
 			children = (
-				26E564CD1D74831C00A5EBF7 /* Bridging.swift */,
 				F0F08DA418D9E80E00214C6B /* DateToolsExample */,
 				F0F08DC318D9E80E00214C6B /* DateToolsExampleTests */,
 				908837CA1B637C240063096B /* DateTools */,
 				26E564D51D74838A00A5EBF7 /* DateTools-watchos */,
 				F0F08D9D18D9E80E00214C6B /* Frameworks */,
 				F0F08D9C18D9E80E00214C6B /* Products */,
-				26E564CC1D74831C00A5EBF7 /* DateTools-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -419,7 +410,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26E564E31D7483A800A5EBF7 /* DateTools-Bridging-Header.h in Headers */,
 				26E564D71D74838A00A5EBF7 /* DateTools-watchos.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +424,6 @@
 				901CF0E71B6CA9FE00F6414B /* DTError.h in Headers */,
 				901CF0EB1B6CA9FE00F6414B /* DTTimePeriodChain.h in Headers */,
 				901CF0F11B6CA9FE00F6414B /* NSDate+DateTools.h in Headers */,
-				26E564E41D7483B000A5EBF7 /* DateTools-Bridging-Header.h in Headers */,
 				901CF0E51B6CA9FE00F6414B /* DTConstants.h in Headers */,
 				901CF0ED1B6CA9FE00F6414B /* DTTimePeriodCollection.h in Headers */,
 			);
@@ -612,7 +601,6 @@
 				26E564DC1D7483A800A5EBF7 /* DTConstants.m in Sources */,
 				26E564E21D7483A800A5EBF7 /* NSDate+DateTools.m in Sources */,
 				26E564DF1D7483A800A5EBF7 /* DTTimePeriodChain.m in Sources */,
-				26E564E61D7484A500A5EBF7 /* Bridging.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,7 +615,6 @@
 				901CF0E61B6CA9FE00F6414B /* DTConstants.m in Sources */,
 				901CF0F21B6CA9FE00F6414B /* NSDate+DateTools.m in Sources */,
 				901CF0EC1B6CA9FE00F6414B /* DTTimePeriodChain.m in Sources */,
-				26E564E51D7484A400A5EBF7 /* Bridging.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,7 +633,6 @@
 				F007632518DE5FE300A99075 /* Colours.m in Sources */,
 				F007632018DE5F5E00A99075 /* DateToolsViewController.m in Sources */,
 				F0F08DD918D9E94F00214C6B /* NSDate+DateTools.m in Sources */,
-				26E564CE1D74831C00A5EBF7 /* Bridging.swift in Sources */,
 				F007633918DE63C400A99075 /* TimePeriodsViewController.m in Sources */,
 				F0F08DAB18D9E80E00214C6B /* main.m in Sources */,
 			);
@@ -713,7 +699,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.littlepotatosoftware.DateTools-watchos";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -774,7 +759,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.molabo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -845,7 +829,6 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = DateTools;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "DateTools-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -878,7 +861,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = DateTools;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "DateTools-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -896,8 +878,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mattyork.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "DateToolsExample-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -915,7 +895,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mattyork.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "DateToolsExample-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -972,6 +951,7 @@
 				26E564DB1D74838A00A5EBF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		908837E01B637C240063096B /* Build configuration list for PBXNativeTarget "DateTools" */ = {
 			isa = XCConfigurationList;
